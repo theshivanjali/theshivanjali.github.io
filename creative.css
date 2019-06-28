@@ -1,0 +1,13 @@
+body{
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    max-width: 38em;
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+}
