@@ -22,6 +22,7 @@ a, a#icon, #brandNameFooter{
 a:hover{
     text-decoration: none;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(1.5, 1.5);
@@ -31,6 +32,7 @@ a:hover{
 
 .rainbowColor{
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -49,6 +51,7 @@ a#icon:hover{
 #brandNameFooter:hover{
     text-decoration: none;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(1.2, 1.2);
