@@ -3,7 +3,6 @@ body{
     font-family: 'Roboto Mono', monospace;
     background-color: #000;
     color: white;
-    cursor: pointer;
 }
 
 .container {
@@ -15,6 +14,48 @@ p {
     font-size: 1em;
 }
 
+a, a#icon, #brandNameFooter{
+    color: yellow;
+    transition: transform 2s ease-out, font-size 2s;
+}
+
+a:hover{
+    text-decoration: none;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.5, 1.5);
+    font-size: 1.2em;
+    
+}
+
+.rainbowColor{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a#icon:hover{
+   
+    transform: scale(1.5, 1.5);
+    font-size: 1.2em;
+    -webkit-text-fill-color: indigo;
+}
+
+.text-muted{
+    font-size: 0.7rem;
+}
+
+#brandNameFooter:hover{
+    text-decoration: none;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.2, 1.2);
+    font-size: 1.2em;
+}
+
+/* Video Content */
 
 .homepage-hero-module {
     border-right: none;

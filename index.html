@@ -8,14 +8,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="creative.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/c6f187f342.js"></script>
+    <!-- Custom Fonts for this CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- <script src="https://kit.fontawesome.com/c6f187f342.js"></script> -->
 </head>
 <body>
 
   <div class="homepage-hero-module">
       <div class="video-container">
         <div class="filter"></div>
-        <video autoplay loop muted playsinline src="https://theshivanjali.github.io/abc.mp4" class="fillWidth"></video>
+        <video autoplay loop muted playsinline src="abc.mp4" class="fillWidth"></video>
         <div class="poster hidden">
           <img src="#" alt="">
         </div>
@@ -28,10 +31,10 @@
             <div class="col-sm-12 py-3 border-bottom">
              <div class="d-flex justify-content-between">
                 <div>
-                    <h3><a href="https://theshivanjali.github.io/">Shivanjali Chaurasia</a></h3>
+                    <h3 class="rainbowColor"><a href="https://theshivanjali.github.io/" id="brandName" >Shivanjali Chaurasia</a></h3>
                 </div> 
                 <div>
-                    <a href="resume.pdf" download="resume"><i class="fas fa-download fa-2x pt-2"></i></a>
+                    <a href="resume.pdf" download="resume" id="icon"><i class="fas fa-download fa-2x pt-2"></i></a>
                 </div>
                
              </div> 
@@ -42,7 +45,7 @@
         </div>
       </header>
 
-  <main>
+  <main id="mainContent">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 p-3">
@@ -53,7 +56,8 @@
               Although I am a B-Tech. graduate, yet I call myself a student because one can never stop learning. You will always find me researching and learning new things. Currently, I am trying my hands on ES6 and JS Framework Vue.
           </p>
          <p>
-          I have learned developing <strong> Web - Applications using PHP </strong> during my college days <i>(Goshh! those days were so awesome!) </i> and <strong> PHP Framework - Codeigniter,</strong> during my internship days. <i>(Days that told me what a corporate life looks like!)</i><br><br>
+          I have learned developing <strong> Web - Applications using PHP </strong> during my college days <i>(Goshh! those days were so awesome!) </i> and <strong> PHP Framework - Codeigniter,</strong> during my internship days. <i>(Days that told me what a corporate life looks like!)</i></p>
+          <p>
           Since business is important, take a look at <strong><a href="projects.html">Projects</a></strong> I have developed.
          </p>
          <p>
@@ -62,12 +66,12 @@
          <p>
            Feel free to <a href="mailto:shivanjali012@gmail.com"><strong>reach</strong></a> me, either to hire or for a cup of coffee!<i>(Yep! I prefer coffee over Chai!)</i>. And if not the traditional way, you can always connect with me on <a href="https://www.linkedin.com/in/shivanjali-chaurasia-57319010b">LinkedIn</a>.
          </p>
-       
+         <p class="text-muted text-center">"This rainbow color to show support to all the LGBTQ+ Community members out there. #LoveIsLove. Let's make this world a better place for everyone!"</p>
 
         </div>
       </div>
     </div>
-  </main>
+  </main>  
 
 
 
@@ -75,7 +79,7 @@
 <footer>
   <div class="container text-center">
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-12" id="brandNameFooter">
           &copy;Shivanjali Chaurasia. 2019.
       </div>
     </div>

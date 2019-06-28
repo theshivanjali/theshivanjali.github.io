@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function (e) {
   
     if (promise !== undefined) {
         promise.catch(error => {
-            console.log ("Auto-play failed")
+            console.log ("Auto-play failed");
             // Auto-play was failed
         }).then(() => {
-            console.log ("Auto-play started")
+            console.log ("Auto-play started");
             // Auto-play started
         });
     }
