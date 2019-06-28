@@ -1,6 +1,20 @@
+document.addEventListener('DOMContentLoaded', function (e) {
 
-  // jQuery is required to run this code
-  $( document ).ready(function() {
+    var promise = document.querySelector('video').play();
+  
+    if (promise !== undefined) {
+        promise.catch(error => {
+            console.log ("Auto-play failed")
+            // Auto-play was failed
+        }).then(() => {
+            console.log ("Auto-play started")
+            // Auto-play started
+        });
+    }
+  });
+
+
+   $( document ).ready(function() {
     scaleVideoContainer();
 
     initBannerVideoSize('.video-container .poster img');
